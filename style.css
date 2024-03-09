@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    
+     div.background {
+        background-image: url('C:/Users/ASUS/Desktop/Web site/Images/coffee & cupcake.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        border: 2px solid black;
+      }
+      
+      div.transbox {
+        margin: 50%;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.6;
+      }
+      div.transbox p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+      }
+}
+/* navigation */
+ nav{
+    background-color: rgb(255, 238, 221);
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 6rem;
+    font-size: 20px;
+    font-style: oblique;
+}
+.button{
+    border: none;
+    font-size: 20px;
+    font-style: oblique;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: rgb(153, 121, 121);
+}
+a{
+    text-decoration: none;
+}
+/* description */
+.description{
+
+}
